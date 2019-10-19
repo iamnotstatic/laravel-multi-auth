@@ -65,7 +65,8 @@ class AdminRegisterController extends Controller
         $validatedData = $this->validator($request->all())->validate();
         $admin = $this->create($validatedData);
         auth('admins')->login($admin);
-        return redirect()->intended();
+        return $this->registered($request, $admin)
+                        ?: redirect($this->redirectPath());
     }
 
 

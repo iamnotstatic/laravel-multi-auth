@@ -12,7 +12,8 @@ class AdminController extends Controller
 
     }
     public function index(){
-        //auth('admins')->logout();
+
         return view('layouts.admin.home');
+        
     }
 }
