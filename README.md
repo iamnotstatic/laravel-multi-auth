@@ -10,6 +10,7 @@ Install the dependencies
 ```sh
 composer install
 ```
+### after setting up DB to run migration👇
 
 ### Run Migrations
 ```sh 
