@@ -3,22 +3,22 @@ Laravel 6.0 Multi-auth
 
 ## Usage
 
-### Installation
+## Installation
 
 Install the dependencies
 
 ```sh
 composer install
 ```
-### after setting up DB to run migration👇
+After setting up DB to run migration👇
 
-### Run Migrations
+## Run Migrations
 ```sh 
 $ php artisan migrate
 ```
 
 ### Add virtual host if using Apache
-### Serving Project
+Serving Project
 ```sh 
 php artisan serve 
 ```
@@ -40,7 +40,7 @@ npm install && npm run dev
 ### Author
 
 Abdulfatai Suleman
-[Website:](http://abdul-fatai.github.io)
+[Website:](https://iamnotstatic.github.io/)
 
 ### Version
 
