@@ -10,6 +10,9 @@ Install the dependencies
 ```sh
 composer install
 ```
+
+Copy ```sh .env.example ``` file to ```sh .env ``` on the root folder. You can type ```sh copy .env.example .env ``` if using command prompt Windows or ```sh cp .env.example .env ``` if using terminal, Ubuntu
+
 After setting up DB to run migration👇
 
 ## Run Migrations
